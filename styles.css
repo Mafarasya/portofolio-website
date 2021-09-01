@@ -1,4 +1,4 @@
-/* Color Variables */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 * {
   box-sizing: border-box;
@@ -17,6 +17,7 @@ body {
   overflow-x: hidden;
 }
 
+/* Color Variables */
 :root {
   --color1: #151515;
   --color2: #301b3f;
@@ -34,7 +35,7 @@ body {
   display: flex;
   justify-content: space-between;
   box-shadow: 0px 7px 15px rgb(226, 225, 225);
-  padding: 20px 45px;
+  padding: 20px 80px;
   z-index: 1;
   background-color: rgb(255, 255, 255);
 }
@@ -71,8 +72,14 @@ body {
   margin-left: -28px;
 }
 
-.logo {
-  width: 50px;
+.logo-wrapper .logo {
+  font-size: 30px;
+  transition: 0.5s;
+  font-weight: 700;
+}
+
+.logo-wrapper:hover .logo {
+  letter-spacing: 2px;
 }
 
 /* Toggle menu */
@@ -502,6 +509,18 @@ body {
     transform: translateY(0);
   }
 
+  #navbar {
+    padding: 20px 25px;
+  }
+
+  .welcome-flex {
+    text-align: center;
+  }
+
+  #welcome-section input {
+    width: 220px;
+  }
+
   .project-grid {
     grid-template-columns: 1fr !important;
     grid-template-rows: repeat(4, 1fr) !important;
@@ -514,10 +533,11 @@ body {
   }
   .title {
     font-size: 40px !important;
-    width: 350px;
+    width: 345px;
+    margin: 0 auto;
   }
   .subtitle {
-    font-size: 25px !important;
+    font-size: 22px !important;
     margin-bottom: 20px;
   }
 
@@ -536,7 +556,11 @@ body {
   }
 
   #navbar .menu-toggle {
-    top: 10px;
+    top: 12px;
+  }
+
+  #navbar {
+    padding: 20px 25px;
   }
 
   .title {
