@@ -512,6 +512,10 @@ body {
   #navbar {
     padding: 20px 25px;
   }
+  
+  #navbar .logo {
+    z-index: -2;
+  }
 
   .welcome-flex {
     text-align: center;
