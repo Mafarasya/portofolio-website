@@ -492,14 +492,14 @@ body {
     align-items: center;
     justify-content: space-evenly;
     z-index: -1;
-    transform: translateX(100%);
+    transform: translateY(100%);
     transition: all 1s;
     opacity: 0;
   }
 
   #navbar .slide {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 
   .project-grid {
