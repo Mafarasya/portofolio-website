@@ -521,6 +521,16 @@ body {
     width: 220px;
   }
 
+  .welcome-flex {
+    width: 100%;
+    margin: 0 auto !important;
+  }
+
+  .welcome-title {
+    background: pink;
+    width: 500px;
+  }
+
   .project-grid {
     grid-template-columns: 1fr !important;
     grid-template-rows: repeat(4, 1fr) !important;
