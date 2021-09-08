@@ -74,6 +74,7 @@ body {
   position: relative;
   /* background-color: #285aeb; */
   width: 75px;
+  z-index: -2;
 }
 
 .slider {
