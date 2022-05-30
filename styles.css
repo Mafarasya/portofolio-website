@@ -259,7 +259,7 @@ body {
 #welcome-section button {
   font-family: inherit;
   padding: 10px;
-  width: 80px;
+  width: 150px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -312,7 +312,7 @@ body {
   padding-top: 10px;
   border-radius: 40% 10% 40% 10%;
   width: 100%;
-  background-color: var(--sub);
+  background-color: #211f1f;
 }
 
 .welcome-title p {
